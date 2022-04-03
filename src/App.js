@@ -3,9 +3,9 @@ import Footer from "./Components/Footer";
 import Body from "./Components/GameBody";
 function App() {
   return (
-    <div className="flex flex-col p-0 m-0 justify-center items-center bg-gradient-to-r from-cyan-500 to-green-500 h-full w-full">
+    <div className="h-full w-full left-0 absolute flex flex-col p-0 m-0 items-center bg-cornsilk bg-cover ">
       <Header/>
-      <Body/>
+      <Body />
       <Footer/>
     </div>
   );
